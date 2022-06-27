@@ -1,0 +1,90 @@
+
+:root {
+    --pink: #fbe6f4ff;
+    --yellow: #fffad1ff;
+    --green: #e1f0e5ff;
+    --blue: #b5caf9ff;
+    --orange: #f5e6db;
+    --raisin: #2b283aff;
+    --grey: #d4d4d4;
+}
+
+body {
+    background-color: var(--raisin);
+    color: white;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 800px;
+    background-image: url('space.gif');
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.planet {
+    margin: 1em;
+    background-color: aqua;
+    border-radius: 50%;
+    box-shadow: #2c282877 50px 10px 40px -22px outset;
+    border-radius: 50%;
+    background-size: cover;
+}
+.planet1{
+    width: 5.4px;
+    height: 5.4px;
+    background-image: url('mercury.jpg');
+    
+}
+.planet2{
+    width: 5.4px;
+    height: 5.4px;
+    background-image: url('venus.jpg');
+}
+.planet3{
+    width: 10px;
+    height: 10px;
+    background-image: url('earth.jpg');
+
+}
+.planet4{
+    width: 8px;
+    height: 7.57px;
+    background-image: url('mars.jpg');
+}
+.planet5{
+    width: 160px;
+    height: 160px;
+    background-image: url('jupyter.jpg');
+}
+.planet6{
+    width: 320px;
+    height: 256px;
+    background:transparent;
+    background-image: url('saturn.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-radius: 0%;
+
+}
+.planet7{
+    width: 57.14px;
+    height: 57.14px;
+    background-image: url('uranus.jpg');
+}
+.planet8{
+    width: 55.42px;
+    height: 55.42px;
+    background-image: url('naptune.jpg');
+}
+.indicator{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    background-color: purple;
+    width: 300px;
+    height: 100px;
+}
